@@ -1,4 +1,4 @@
-/*IntÃ©gration polices personnalisÃ©es */
+/*Intégration polices personnalisées */
 @font-face {
   font-family: "FontAwesome";
   src: url("fonts/fontawesome-webfont.eot");
@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2 {
-  text-align: center;/*Titres centrÃ©s*/
+  text-align: center;/*Titres centrés*/
 }
 
 header {
@@ -61,7 +61,7 @@ header {
   top: 50%;
   opacity: 0.5;
 }
-/*ParamÃ©trage navbar*/
+/*Paramétrage navbar*/
 #entete {
   display: flex;
   flex-direction: row;
@@ -102,7 +102,7 @@ nav ul li:hover {
   overflow: hidden;
 }
 
-/*Dimensionnement images et dÃ©filement auto adaptÃ© aux diffÃ©rents navigateurs*/
+/*Dimensionnement images et défilement auto adapté aux différents navigateurs*/
 .slides {
   margin-top: 50px;
   width: 200%;
@@ -133,7 +133,7 @@ nav ul li:hover {
   overflow: hidden;
 }
 
-/*DÃ©filement auto du texte*/
+/*Défilement auto du texte*/
 .contenu-txt {
   width: 470px;
   height: 200px;
@@ -166,7 +166,7 @@ nav ul li:hover {
   margin-left: 30px;
 }
 
-/*DÃ©filement auto du bouton*/
+/*Défilement auto du bouton*/
 .bouton {
   color: white;
   position: relative;
@@ -246,14 +246,14 @@ i {
   padding: 20px 10px;
 }
 
-/*Changement de couleur au survol pour amÃ©liorer lisibilitÃ©*/
+/*Changement de couleur au survol pour améliorer lisibilité*/
 .items:hover {
   background: #5CADD3;
   color: #FFF;
   border-bottom: 3px solid #468CAD;
 }
 
-/*CrÃ©ation flÃ¨che infÃ©rieure sur Ã©lÃ©ments de liste*/
+/*Création flèche inférieure sur éléments de liste*/
 .items:after {
   content: "";
   display: block;
@@ -269,7 +269,7 @@ i {
   border-top-color: #468CAD;
 }
 
-/*Affichage des Ã©lÃ©ments sÃ©lectionnÃ©s uniquement */
+/*Affichage des éléments sélectionnés uniquement */
 #allItems:hover #creativeItem:hover ~ .grille2 .corporate {
   display: none;
 }
@@ -294,7 +294,7 @@ i {
   display: none;
 }
 
-/*Dimensionnement mosaÃ¯que d'images */
+/*Dimensionnement mosaïque d'images */
 .grille2 {
     display: grid;
     margin-top: 50px;
@@ -325,7 +325,7 @@ i {
     opacity: 0.8;
     color: #FFF;
     background: #000;
-    /*Animation paragraphes au survol d'image en fonction des diffÃ©rents navigateurs */
+    /*Animation paragraphes au survol d'image en fonction des différents navigateurs */
     -webkit-transition: margin-top 0.4s ease-out;
     -moz-transition: margin-top 0.4s ease-out;
     transition: margin-top 0.4s ease-out;
@@ -684,7 +684,7 @@ footer {
   }
 }
 
-/*Programmation des diffÃ©rentes animations */
+/*Programmation des différentes animations */
 @-webkit-keyframes slide {
   0%,100% {
     margin-left: 0;
